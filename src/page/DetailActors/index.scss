@@ -1,0 +1,12 @@
+#detail_actor{
+  padding: 5% 0;
+    .detail_actor{
+      display: flex;
+      align-items: start;
+      box-shadow: 3px 3px #180101, -1em 0 .4em #2c2c1d;
+      border-radius: 20px;
+   &--desc{
+     padding-left: 10%;
+   }
+    }
+}

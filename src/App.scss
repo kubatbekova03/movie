@@ -1,0 +1,84 @@
+
+@import "page/contacts/contact";
+@import "page/DetailPage/index";
+@import "components/Credits/index";
+@import "components/Trailers/index";
+@import "page/DetailActors/index";
+@import "page/DetailActors/ActorMovies/index";
+
+.header{
+    color: purple;
+    nav{
+       a{
+           color: #40AB7E;
+       }
+        .active{
+            background: #40AB7E;
+            padding: 5px 15px;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+#header{
+    background: #000;
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+.buttons{
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #40AB7E;
+    margin: 0 10px;
+    border-radius: 30px;
+    color: white;
+
+}
+.buttons1{
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #40AB7E;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: white;
+}
+.header-logo{
+   font-size: 30px;
+}
+
+.buttons:hover{
+  background: #40AB7E;
+    color:black;
+}
+.buttons1:hover{
+    background: #40AB7E;
+    color: #000;
+}
+.buttons2{
+    input{
+        padding: 10px 20px;
+       border-radius: 10px;
+        outline: none;
+      font-size:10px ;
+      color: #40AB7E;
+
+    }
+
+}

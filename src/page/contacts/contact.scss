@@ -1,0 +1,24 @@
+#movies{
+  padding: 40px 0 ;
+  .movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(0, 0, 0),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+
+    &-card{
+      width: 22%;
+    border-radius: 20px;
+      &:hover {
+        transform:scale(1.1);
+       transition-duration:  1s;
+        box-shadow: 10px 5px 5px rgba(30, 99, 155, 0.85);;
+      }
+
+    }
+  }
+}
